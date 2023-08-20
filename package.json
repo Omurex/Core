@@ -1,0 +1,14 @@
+{
+    "name": "com.josephlyons.core",
+    "version": "1.0.0",
+    "displayName": "Joseph Lyons Core",
+    "description": "Scripts that can be useful in a wide variety of projects.",
+    "unity": "2021.1",
+    "dependencies": {},
+    "keywords": ["core", "utility", "general", "math", "random", "extension"],
+    "author": {
+        "name": "Joseph Lyons",
+        "email": "josephlyons.professional@gmail.com",
+        "url": "https://www.linkedin.com/in/joseph-thomas-lyons/"
+    }
+}
