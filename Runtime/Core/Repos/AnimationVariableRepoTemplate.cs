@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using JosephLyons.Core.Repos.RepoData;
 
-namespace JosephLyons.Core.Repos
+namespace JosephLyons.Core.Repos.Templates
 {
-    public class AnimationVariableRepo
+    public class AnimationVariableRepoTemplate
     {
         // ADD YOUR LAYERS HERE IN THE FORMAT:
         // public static AnimationVariable NAME_USED_IN_CODE { get; private set; } = new("NameUsedInUnity");
