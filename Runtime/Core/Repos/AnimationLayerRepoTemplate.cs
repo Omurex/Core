@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using JosephLyons.Core.Repos.RepoData;
 
-namespace JosephLyons.Core.Repos
+namespace JosephLyons.Core.Repos.Template
 {
     public static class AnimationLayerRepo
     {
