@@ -1,7 +1,7 @@
 {
     "name": "com.josephlyons.core",
     "version": "1.0.0",
-    "displayName": "Omurex Core Functionality",
+    "displayName": "Joseph Lyons Core Functionality",
     "description": "Scripts that can be useful in a wide variety of projects.",
     "unity": "2021.1",
     "dependencies": {},
