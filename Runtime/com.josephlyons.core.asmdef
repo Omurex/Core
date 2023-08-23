@@ -1,7 +1,10 @@
 {
     "name": "com.josephlyons.core",
     "rootNamespace": "",
-    "references": [],
+    "references": [
+        "GUID:d525ad6bd40672747bde77962f1c401e",
+        "GUID:234340c04eed5674a988bc6ebde7d248"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
