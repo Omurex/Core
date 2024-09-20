@@ -80,7 +80,7 @@ public static class IEnumerableExtensions
     }
 
 
-    public static List<T> GetShuffledList<T>(this IEnumerable<T> enumerable)
+    public static List<T> GetShuffledList<T>(ref IEnumerable<T> enumerable)
     {
         return enumerable.GetShuffledList();
     }
