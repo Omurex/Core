@@ -20,12 +20,24 @@ public static class IEnumerableExtensions
     }
 
 
+    public static IEnumerable<T> GetShuffledEnumerable<T>(ref IEnumerable<T> enumerable)
+    {
+        return enumerable.GetShuffledEnumerable();
+    }
+
+
     /// <summary>
     /// Gets shuffled copy of enumerable converted to a stack
     /// </summary>
     public static Stack<T> GetShuffledStack<T>(this IEnumerable<T> enumerable)
     {
         return new Stack<T>(enumerable.GetShuffledEnumerable());
+    }
+
+
+    public static Stack<T> GetShuffledStack<T>(ref IEnumerable<T> enumerable)
+    {
+        return enumerable.GetShuffledStack();
     }
 
 
@@ -38,6 +50,12 @@ public static class IEnumerableExtensions
     }
 
 
+    public static Queue<T> GetShuffledQueue<T>(ref IEnumerable<T> enumerable)
+    {
+        return enumerable.GetShuffledQueue();
+    }
+
+
     /// <summary>
     /// Gets shuffled copy of enumerable converted to a linked list
     /// </summary>
@@ -47,11 +65,23 @@ public static class IEnumerableExtensions
     }
 
 
+    public static LinkedList<T> GetShuffledLinkedList<T>(ref IEnumerable<T> enumerable)
+    {
+        return enumerable.GetShuffledLinkedList();
+    }
+
+
     /// <summary>
     /// Gets shuffled copy of enumerable converted to a list
     /// </summary>
     public static List<T> GetShuffledList<T>(this IEnumerable<T> enumerable)
     {
         return new List<T>(enumerable.GetShuffledEnumerable());
+    }
+
+
+    public static List<T> GetShuffledList<T>(this IEnumerable<T> enumerable)
+    {
+        return enumerable.GetShuffledList();
     }
 }
