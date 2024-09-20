@@ -14,6 +14,7 @@ namespace JosephLyons.Core.Random
         public static T SelectRandomObj<T>(IList<ProbabilityTuple<T>> pool, ref float? probabilitySum)
         {
             if(pool.Count == 0) { return default(T); }
+			if(pool.Count == 1) { return pool[0].obj; }
 
             if(probabilitySum.HasValue == false)
             {

@@ -8,6 +8,7 @@ namespace JosephLyons.Core.Random
     public class ProbabilityTuple<T>
     {
         public T obj;
+
         public float probability;
 
 
@@ -15,5 +16,11 @@ namespace JosephLyons.Core.Random
         {
             obj = _obj; probability = _probability;
         }
+
+
+		public bool IsProbabilityZero()
+		{
+			return probability <= float.Epsilon;
+		}
     }
 }
